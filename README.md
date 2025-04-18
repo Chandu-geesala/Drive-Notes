@@ -47,7 +47,7 @@ DriveNotes is a modern note-taking application built with Flutter that allows us
 
 #### Method 1: Install from APK (Easiest)
 
-1. Download the APK file from the [releases page](https://github.com/yourusername/drivenotes/releases)
+1. Download the APK file from the [releases page](https://github.com/Chandu-geesala/drivenotes/releases)
 2. Install it on your Android device
 3. Open the app and sign in with your Google account
 
@@ -56,7 +56,7 @@ DriveNotes is a modern note-taking application built with Flutter that allows us
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/drivenotes.git
+git clone https://github.com/Chandu-geesala/drivenotes.git
 cd drivenotes
 ```
 
@@ -80,32 +80,23 @@ The project follows a clean architecture pattern with separation of concerns:
 
 ```
 lib/
-├── core/                   # Core functionality and utilities
-│   ├── constants/          # App constants
-│   ├── theme/              # Theme configurations
-│   └── utils/              # Utility functions
-├── data/                   # Data layer
-│   ├── models/             # Data models
-│   ├── repositories/       # Repositories implementation
-│   └── sources/            # Data sources (local and remote)
-├── domain/                 # Domain layer
-│   ├── entities/           # Business entities
-│   ├── repositories/       # Repository interfaces
-│   └── usecases/           # Business logic use cases
-├── presentation/           # UI layer
-│   ├── screens/            # App screens
-│   │   ├── home_screen.dart     # Main home screen
-│   │   ├── notes_screen.dart    # Note editor screen
-│   │   └── login.dart           # Authentication screen
-│   ├── widgets/            # Reusable UI components
-│   └── providers/          # State management providers
-├── providers/              # App-wide providers
-│   ├── notes_provider.dart # Notes state management
-│   └── theme_provider.dart # Theme state management
-├── viewModel/              # View models
-│   ├── authService.dart    # Authentication service
-│   └── drive_service.dart  # Google Drive integration
-└── main.dart               # App entry point
+├── providers/
+│   ├── notes_provider.dart
+│   ├── theme_provider.dart
+│   └── user_provider.dart
+├── view/
+│   ├── splashScreen/
+│   │   ├── intro.dart
+│   │   └── splash_screen.dart
+│   ├── home.dart
+│   ├── login.dart
+│   └── notes_screen.dart
+├── viewModel/
+│   ├── authService.dart
+│   └── drive_service.dart
+├── utils/
+│   └── notificationService.dart
+└── main.dart
 ```
 
 ## Authentication
