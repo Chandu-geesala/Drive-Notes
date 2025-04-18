@@ -47,7 +47,7 @@ DriveNotes is a modern note-taking application built with Flutter that allows us
 
 #### Method 1: Install from APK (Easiest)
 
-1. Download the APK file from the [releases page](https://github.com/Chandu-geesala/drivenotes/releases)
+1. Download the APK file from the [releases page]([https://github.com/Chandu-geesala/drivenotes/releases](https://github.com/Chandu-geesala/Drive-Notes/releases/tag/DriveNote))
 2. Install it on your Android device
 3. Open the app and sign in with your Google account
 
