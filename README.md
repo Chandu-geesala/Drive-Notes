@@ -2,8 +2,6 @@
 
 DriveNotes is a modern note-taking application built with Flutter that allows users to create, edit, and organize notes with a beautiful interface. The app features Google authentication, dark/light mode themes, and stores notes using local storage with Google Drive sync capabilities.
 
-![DriveNotes App Logo](assets/l.png)
-
 
 https://github.com/user-attachments/assets/1e88c8c2-db23-4c5d-a79e-cc20a5936cc6
 
