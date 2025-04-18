@@ -1,0 +1,60 @@
+name: ano
+description: A Google Drive connected notes app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  cached_network_image:
+  # State Management
+  flutter_riverpod: ^2.4.0
+  firebase_messaging:
+  firebase_core:
+  flutter_local_notifications:
+  cloud_firestore:
+  google_fonts:
+  heroicons:
+  shared_preferences:
+  in_app_update:
+  firebase_auth:
+  package_info_plus:
+
+  # Networking
+  dio: ^5.3.2
+
+  # Google Integration
+  googleapis: ^11.4.0
+  googleapis_auth: ^1.4.1
+  google_sign_in: ^6.1.4
+
+  # Storage
+  flutter_secure_storage: ^8.0.0
+
+  # Routing
+  go_router: ^10.1.2
+
+  # Utils
+  json_annotation: ^4.8.1
+  intl: ^0.18.1
+  url_launcher: ^6.1.12
+  flutter_svg: ^2.0.7
+  lottie:
+  share_plus: ^7.2.1    # For sharing content
+  path_provider: ^2.1.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

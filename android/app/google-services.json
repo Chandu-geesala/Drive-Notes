@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "712116261258",
+    "project_id": "drive-notes-660e6",
+    "storage_bucket": "drive-notes-660e6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712116261258:android:27e4ef33cddaf699b77873",
+        "android_client_info": {
+          "package_name": "com.chandu.ano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712116261258-ppoae6tuts5pi8glqmiphjt8gl023m51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chandu.ano",
+            "certificate_hash": "62b4b65fe4cebdb9b001e729fbba6eb793b69c5c"
+          }
+        },
+        {
+          "client_id": "712116261258-foipd4k3oh2kcj0a4hfkur35doo8j1n7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5DeBV6bSNSpMGF_d17JtXdSPBdVhNl9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712116261258-foipd4k3oh2kcj0a4hfkur35doo8j1n7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "712116261258-kckhibb5jk2rq850thjsel75seol44lb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.chandu.ano"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
